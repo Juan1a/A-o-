@@ -1,0 +1,74 @@
+/* Definindo o estilo inicial */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo do herói */
+#hero {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+/* Campo de batalha */
+#battlefield {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 5px solid #0073e6;
+    border-bottom: 5px solid #0073e6;
+}
+
+.hero, .villain {
+    width: 40%;
+    padding: 10px;
+    border: 2px dashed #333;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* Herói HTML */
+.html-hero {
+    background-color: #4caf50;
+    color: white;
+    border-color: #2e7d32;
+}
+
+.html-hero:hover {
+    transform: scale(1.1);
+    background-color: #66bb6a;
+}
+
+/* Vilão CSS */
+.css-villain {
+    background-color: #e53935;
+    color: white;
+    border-color: #b71c1c;
+}
+
+.css-villain:hover {
+    transform: scale(1.1);
+    background-color: #ef5350;
+}
+
+/* Resultado */
+#outcome {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    font-style: italic;
+}
